@@ -13,7 +13,7 @@ namespace StructsAndEnums
         static void doWork()
         {
             // TODO:
-            Console.WriteLine("Changes made");
+           // Console.WriteLine("Changes made");
         }
 
         static void Main()
