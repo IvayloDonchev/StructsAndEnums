@@ -13,10 +13,12 @@ namespace StructsAndEnums
     {
         static void doWork()
         {
-            Month first = Month.January;
-            Console.WriteLine(first);
-            ++first;
-            Console.WriteLine(first);
+            //Month first = Month.January;
+            //Console.WriteLine(first);
+            //++first;
+            //Console.WriteLine(first);
+            for (Month m = Month.January; m <= Month.December; ++m)
+                Console.WriteLine(m);
         }
 
         static void Main()
