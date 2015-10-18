@@ -28,7 +28,7 @@ namespace StructsAndEnums
             weddingAnniversary.AdvanceMonth();
             Console.WriteLine("New value of weddingAnniversary is {0}", weddingAnniversary);
             Console.WriteLine("Value of copy is still {0}", weddingAnniversaryCopy);
-            Console.WriteLine("Проба 1 2 3 Proba Кирилицата работи!!!");
+           // Console.WriteLine("Проба 1 2 3 Proba Кирилицата работи!!!");
         }
 
         static void Main()
