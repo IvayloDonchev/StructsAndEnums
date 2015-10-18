@@ -17,8 +17,10 @@ namespace StructsAndEnums
             //Console.WriteLine(first);
             //++first;
             //Console.WriteLine(first);
-            for (Month m = Month.January; m <= Month.December; ++m)
-                Console.WriteLine(m);
+            //for (Month m = Month.January; m <= Month.December; ++m)
+            //    Console.WriteLine("{0} {1}",(int)m+1, m);
+            Date defaultDate = new Date();
+            Console.WriteLine(defaultDate);
         }
 
         static void Main()
