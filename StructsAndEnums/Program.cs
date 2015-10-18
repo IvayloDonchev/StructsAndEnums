@@ -13,10 +13,10 @@ namespace StructsAndEnums
     {
         static void doWork()
         {
-            // TODO:
-            Season season = Season.Autumn;
-            if (season == Season.Fall)
-                Console.WriteLine("The season is {0}",season);
+            Month first = Month.January;
+            Console.WriteLine(first);
+            ++first;
+            Console.WriteLine(first);
         }
 
         static void Main()
