@@ -8,12 +8,15 @@ using System.Text;
 
 namespace StructsAndEnums
 {
+    enum Season { Spring=1, Summer, Fall, Autumn = Fall, Winter };
     class Program
     {
         static void doWork()
         {
             // TODO:
-           // Console.WriteLine("Changes made");
+            Season season = Season.Autumn;
+            if (season == Season.Fall)
+                Console.WriteLine("The season is {0}",season);
         }
 
         static void Main()
