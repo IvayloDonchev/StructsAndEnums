@@ -21,6 +21,8 @@ namespace StructsAndEnums
             //    Console.WriteLine("{0} {1}",(int)m+1, m);
             Date defaultDate = new Date();
             Console.WriteLine(defaultDate);
+            Date weddingAnniversary = new Date(2013, Month.July, 4);
+            Console.WriteLine(weddingAnniversary);
         }
 
         static void Main()
