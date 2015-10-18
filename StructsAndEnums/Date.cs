@@ -18,6 +18,15 @@ namespace StructsAndEnums
             string data = String.Format("{0} {1} {2}", this.month, this.day + 1, this.year + 1900);
             return data;
         }
+        public void AdvanceMonth()
+        {
+            this.month++;
+            if (this.month == Month.December + 1)
+            {
+                this.month = Month.January;
+                this.year++;
+            }
+        }
     }
 
 }
