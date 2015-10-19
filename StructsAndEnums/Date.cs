@@ -13,11 +13,13 @@ namespace StructsAndEnums
             this.month = mm;
             this.day = dd - 1;
         }
-        public override string ToString()
-        {
-            string data = String.Format("{0} {1} {2}", this.month, this.day + 1, this.year + 1900);
-            return data;
-        }
+        //public override string ToString()
+        //{
+        //    string data = String.Format("{0} {1} {2}", this.month, this.day + 1, this.year + 1900);
+        //    return data;
+        //}
+        public override string ToString() => string.Format("{0} {1} {2}", month, day + 1, year + 1900);
+       
         public void AdvanceMonth()
         {
             this.month++;
